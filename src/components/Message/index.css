@@ -1,0 +1,12 @@
+.main-heading {
+  color: #ffffff;
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .main-heading {
+    font-size: 25px;
+  }
+}

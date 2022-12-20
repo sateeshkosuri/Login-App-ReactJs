@@ -1,0 +1,23 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  background-size: cover;
+  border: none;
+  border-radius: 10px;
+  min-height: 250px;
+  min-width: 300px;
+}
+@media screen and (max-width: 768px) {
+  .home-container {
+    justify-content: flex-start;
+  }
+}
